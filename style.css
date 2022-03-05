@@ -1,0 +1,153 @@
+:root {
+	--powerblue: #b0e0e6;
+	--cadetblue: #5f9ea0;
+	--black: #000000;
+	--white: #ffffff;
+	--blue: #0000ff;
+	--orange: #ffa500;
+}
+
+body {
+	background-color: var(--cadetblue);
+	scroll-behavior: auto;
+}
+
+/** {
+  box-sizing: border-box;
+  margin: 0 auto;
+}*/
+
+.main {
+	margin: 20px;
+}
+
+a {
+	color: var(--black);
+}
+
+/*for footer in index.html*/
+.footer {
+	text-align: right;
+	font-style: italic;
+	padding: 5px;
+	width: 100%;
+	height: 50px;
+	background-color: var(--powerblue);
+	color: var(--black);
+}
+
+/*for footer in contact.html*/
+.contact-footer {
+	text-align: right;
+	font-style: italic;
+	padding: 5px;
+	width: 100%;
+	height: 50px;
+	background-color: var(--powerblue);
+	color: var(--black);
+	position: fixed;
+	bottom: 0;
+}
+
+/*for carousel in index.html*/
+.carousel .custom-img {
+	width: 100vw;
+	height: 100vh;
+	object-fit: cover;
+}
+
+.carousel .custom-caption {
+	color: var(--black);
+}
+
+/*for nav bar*/
+.text-color {
+	color: var(--black);
+}
+.dropdown-item:hover {
+	background-color: var(--powerblue);
+}
+.nav-link:hover {
+	background-color: var(--powerblue);
+}
+.btn:hover {
+	background-color: var(--powerblue);
+}
+
+/*for aboutme.html*/
+.intro-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	margin: 10px;
+}
+
+.intro-item {
+	margin: 5px;
+}
+
+.image {
+	padding: 20px;
+	border-radius: 50%;
+}
+.introduction {
+	padding: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: justify;
+}
+@media (max-width: 600px) {
+	.intro-container {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		margin: 5px;
+		text-align: center;
+	}
+
+	.intro-item {
+		margin: 5px;
+	}
+
+	.image {
+		border-radius: 50%;
+	}
+
+
+	.introduction {
+		padding: 20px;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+}
+
+/* for work.html*/
+
+.flex-container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin: 20px;
+}
+
+.flex-item {
+	margin: 10px;
+	padding: 30px;
+	background-color: var(--powerblue);
+	border-radius: 50px /50px;
+}
+
+#education,
+#skills,
+#work,
+#internship {
+	margin: 10px 20px;
+}
+
+/*for project.html*/
+.bg-card {
+	background-color: var(--powerblue);
+}
+
+.title-color {
+	color: var(--blue);
+	font-weight: bold;
+}
