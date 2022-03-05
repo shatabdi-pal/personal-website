@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming-Project</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+     crossorigin="anonymous"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="STYLE\style.css" \>
+</head>
+<body>
+    <header class="header mb-3"> 
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar"
+          aria-controls="collapsibleNavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="aboutme.html">AboutMe</a>
+            </li>
+            <li class="nav-item">
+                <div class="dropdown">
+                  <a class="nav-link" href="work.html" id="dropdownMenu" data-bs-toggle="dropdown" aria-expanded="false"></span>Previous Work</a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu">
+                    <li><a class="dropdown-item active" href="work.html#education">Education</a></li>
+                    <li><a class="dropdown-item" href="work.html#skills">Technical Skills</a></li>
+                    <li><a class="dropdown-item" href="work.html#work">Work</a></li>
+                    <li><a class="dropdown-item" href="work.html#internship">Internship</a></li>
+                  </ul>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="project.html">Project</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    </header>
+    <main class="container mt-4">
+        <div class="card-group">
+              <div class="card mb-3 bg-card">
+                <div class="card-body">
+                  <h5 class="card-title title-color">Implementation of an IEEE floating point parser</h5>
+                  <p class="card-text">
+                    This program will take 3 arguments. The first argument is the number of fraction bits 
+                    between 2 and 10. The second argument is the number of exponent bits (k) between 3 and 
+                    5. The third argument is the hexadecimal number that user want to parse.The program will 
+                    print out the floating point value associated with the given bit pattern. For example, 
+                    the excution of "fp_parse 4 4 a8" will produce and output 12.0. The IEEE FP represents 
+                    numbers in the form of  V = (-1)s * M * 2E, where s is sign bit: 1 == negative,
+                    0 == positive, M is the significand, a fractional number and E is the, possibly negative, 
+                    exponent.
+                  </p>
+                  <a href="https://github.com/shatabdi-pal/Programming_Project/tree/main/FloatingPoint_parser" class="btn btn-primary" target="_blank">fp_parse</a>
+                </div>
+              </div>
+            </div>
+              <div class="card mb-3">
+                <div class="card-body bg-card">
+                  <h5 class="card-title title-color">Implementation  of a game to test a user's typing speed</h5>
+                  <p class="card-text">
+                    The game randomly chooses words from an array of strings containing "The", "quick", "brown", 
+                    "fox", "jumps", "over", "the", "lazy", "dog". Each word must appear exactly once. The program
+                    should output the time it takes for the user to correctly enter the entire array of words. If
+                    the user incorrectly types a word, the program would prompt the user to retype the incorrect word.
+                </p>
+                  <a href="https://github.com/shatabdi-pal/Programming_Project/tree/main/Typing_Word_Game" class="btn btn-primary" target="_blank">Typing_Word_Game</a>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3">
+              <div class="card-body bg-card">
+                <h5 class="card-title title-color">Implementation of full adder circuit</h5>
+                <p class="card-text">
+                    A Full Adder is a combinational circuit that performs an addition operation on binary numbers. 
+                    The Full Adder takes three inputs and  produce two outputs. The two outputs are Sum and Carry.
+                    This program takes two input string and checks for string validity. 
+              </p>
+                <a href="https://github.com/shatabdi-pal/Programming_Project/blob/main/FullAdder/main.cpp" class="btn btn-primary" target="_blank">FullAdder</a>
+              </div>
+            </div>
+        </div>
+    </main> 
+</body>
+</html>
