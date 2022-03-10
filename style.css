@@ -12,7 +12,7 @@ body {
 	scroll-behavior: auto;
 }
 .wrapper {
-	background-image: url("..\\image\\background.jpg");
+	background-image: url("\\background.jpg");
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
