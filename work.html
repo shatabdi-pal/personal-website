@@ -11,12 +11,13 @@
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="style.css" \>
+    <link rel="stylesheet" href="STYLE\style.css" \>
 </head>
-<body>
+<body class="wrapper">
     <header class="header"> 
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <div class="container-fluid">
+              <img class="mx-4" src="image\myLogo.jpg" alt="mylogo" width="60" height="48" />
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                data-bs-target="#collapsibleNavbar" aria-controls="collapsibleNavbar"
                aria-expanded="false"
@@ -24,16 +25,16 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
-              <ul class="navbar-nav">
+              <ul class="navbar-nav  nav-pills mx-4">
                   <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link text-white fs-5" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="aboutme.html">AboutMe</a>
+                    <a class="nav-link text-white fs-5" href="aboutme.html">AboutMe</a>
                 </li>
                 <li class="nav-item">
                     <div class="dropdown">
-                      <a class="nav-link" href="work.html" id="dropdownMenu" data-bs-toggle="dropdown" aria-expanded="false">Previous Work</a>
+                      <a class="nav-link text-white fs-5" href="work.html" id="dropdownMenu" data-bs-toggle="dropdown" aria-expanded="false">Previous Work</a>
                       <ul class="dropdown-menu" aria-labelledby="dropdownMenu">
                         <li><a class="dropdown-item active" href="work.html#education">Education</a></li>
                         <li><a class="dropdown-item" href="work.html#skills">Technical Skills</a></li>
@@ -43,10 +44,10 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="project.html">Project</a>
+                    <a class="nav-link text-white fs-5" href="project.html">Project</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link text-white fs-5" href="contact.html">Contact</a>
                 </li>
               </ul>
             </div>
@@ -59,74 +60,109 @@
           <div class="flex-item item1">
             <ul>
               <li>
-                <a href="https://www.pdx.edu/" target="_blank">Portland State University, Portland, OR, USA</a>
-                <p>Master's Program in Computer Science (2022 – current) </p>  
+                <p><b class="degree"> Masters | <a href="https://www.pdx.edu/" target="_blank">Portland State University, Portland, OR, USA</a> 
+                 | 2022 – present</b>
+                <br />
+                <b>Major:</b> Computer Science
+                <br />
+                 <b>Relevant course work:</b>Intro to Web Development, Operating System
+                <p>	 
               </li>
               <li>
-                <a href="https://www.pdx.edu/" target="_blank">Portland State University, Portland, OR, USA</a>
-                <p>(dual enrollment with <a href="https://www.pcc.edu/" target="_blank">Portland Community College</a>)
-                  <br />
-                Postbaccalaureate Program (post-bac) in Computer Science (2020 – 2021)
+                <p><b class="degree">Post-bac | <a href="https://www.pdx.edu/" target="_blank">Portland State University, Portland, OR, USA</a>
+                | 2020 – 2021 </b>
+                <br />dual enrollment with <a href="https://www.pcc.edu/" target="_blank">Portland Community College</a>
+                <br />
+                 <b>Major:</b> Computer Science
+                 <br />
+                <b>Relevant course work: </b>Data Structures, Computer System Programming, Programming Systems, Discrete Structures I and II, Algorithm & Complexity
               </p>
               </li>
               <li>
-                <a href="https://www.heritageit.edu/" target="_blank"> Heritage Institute of Technology, Kolkata, India </a>
-                <p> Degree: Bachelor of Technology (2008 – 2011)
-                  <br />
-                  Major: Electronics & Communication Engineering
+                <p>
+                 <b class="degree">Bachelors | <a href="https://www.heritageit.edu/" target="_blank"> Heritage Institute of Technology, Kolkata, India </a>
+                 | 2008 – 2011</b>
+                <br />
+                <b>Major:</b> Electronics & Communication Engineering
+                <br />
+                <b>Relevant course work:</b> Microprocessor & Micro Controller, Computer Architecture & Organization, Database Management System, Software Engineering, VLSI Circuits & System 
                 </p>
               </li>
               <li>
-                <p>School: Womens’ Polytechnic, Kolkata, India
+                <p>
+                <b class="degree">Diploma | Women’s Polytechnic, Kolkata, India 
+                | 2005 – 2008</b>
                 <br /> 
-                Degree: Diploma (2005 – 2008)
+                <b>Major: </b> Electronics and Telecommunication Engineering	
                 <br />
-                Major: Electronics & Telecommunication Engineering
+                <b>Relevant course work: </b> C, Electrical Engineering, Network Analysis, Analog & Digital Electronics
                 </p>
               </li>
             </ul>
           </div>
         <h3 id="skills">Technical Skills</h3>
           <div class="flex-item item2">
-            <h6>Programming Language:</h6>
+            <b>Programming Language:</b>
             <p>C, C++, Python, Java, SQL, PL/SQL, HTML, CSS, JavaScript</p>
-            <h6>Tools:</h6>
+            <b>Tools:</b>
             <p>Visual Studio, Visual Studi Code, Net Beans, Eclipes, IntelliJ IDEA, Jupiter Notebook, Oracle 11G, SQL Developer</span>
             </p>
-            <h6>Operating system:</h6>
+            <b>Operating system:</b>
             <p>Windows, UNIX, Linux</p>
+            <a href="work.html">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-up-circle" viewBox="0 0 16 16" aria-label="go-navbar">
+                <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+              </svg> 
+              </a> 
           </div>
         <h3 id="work">Work Experience</h3>
             <div class="flex-item item3">
-                <a href="https://www.techmahindra.com/en-in/?f=27922667" target="_blank">Tech Mahindra Limited</a>
-                <h6>Software Engineer (2012 – 2015) </h6>
                 <p>
-                Worked in the Operational Data Management project and Billing System for Client British Telecomm, UK
-                Supervised jobs (Scheduling, monitoring jobs on server, diagnosis and fixing problems for jobs) in Citrix Control –M tool, 
-                a workload automated software
-                Raised change request in Change Management Tool, Deployment on production/ live server and also in test Environments
-                Resolved billing related issues
-                Produced daily and weekly statistical reports
-                Prepared/updated training documents to train new team members
-                Worked in collaboration with designer, developer and testing teams
+                <b class="designation">Software Engineer | <a href="https://www.techmahindra.com/en-in/?f=27922667" target="_blank">Tech Mahindra Limited</a>	
+                | 2012 - 2015</b>
+                <br />
+                <ul>
+                <li>Worked in the Operational Data Management project and Billing System for Client British Telecomm, UK</li>
+                <li>Supervised jobs (Scheduling, monitoring jobs on server, diagnosis and fixing problems for jobs) in Citrix Control –M tool, 
+                  a workload automated software</li>
+                <li>Raised change request in Change Management Tool, Deployment on production/ live server and also in test Environments</li>
+                <li>Resolved billing related issues and Produced daily and weekly statistical reports</li>
+                <li>Prepared/updated training documents to train new team members</li>
+                <li>Worked in collaboration with designer, developer and testing team</li>
+                </ul>
                 </p>
+                <a href="work.html">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-up-circle" viewBox="0 0 16 16" aria-label="go-navbar">
+                    <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+                  </svg> 
+                  </a> 
             </div>
         <h3 id="internship">Internship</h3>
             <div class="flex-item item4">
               <ul>
                 <li>
-                  <a href="http://www.calcutta.bsnl.co.in/NSCBTTCWEBPAGE/" target="_blank">NSCB Telecomm Training Center Kalyani, WB, India</a>                                                                                                                                                   
-	                <p>
+                  <p>
+                  <b><a href="http://www.calcutta.bsnl.co.in/NSCBTTCWEBPAGE/" target="_blank">NSCB Telecomm Training Center Kalyani, WB, India</a> 
+                  | 2010 </b>                                                                                                                                                
+	                <br />
                     Gained knowledge of various wired & wireless communication medium.
                   </p>
                 </li>
                 <li>
-                  <a href="https://mtp.indianrailways.gov.in/" target="_blank">Metro railway Bhavan, Kolkata, India</a>
                   <p>
-                      Learnt about optical fiber communication, Train radio and CCTV system of underground railway.
+                  <b><a href="https://mtp.indianrailways.gov.in/" target="_blank">Metro railway Bhavan, Kolkata, India</a>
+                  | 2007</b>
+                  <br />
+                  Learnt about optical fiber communication, Train radio and CCTV system of underground railway.
                   </p>    
                 </li>
-              </ul>                                                                                                                                 
+              </ul> 
+              <a href="work.html">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-up-circle" viewBox="0 0 16 16" aria-label="go-navbar">
+                <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+              </svg>
+      
+              </a>                                                                                                                              
             </div>
         </section>
     </main> 
