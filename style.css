@@ -5,59 +5,57 @@
 	--white: #ffffff;
 	--blue: #0000ff;
 	--orange: #ffa500;
+	--honeydew: #f0ffff;
 }
 
 body {
-	background-color: var(--cadetblue);
 	scroll-behavior: auto;
 }
+.wrapper {
+	background-image: url("..\\image\\background.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 
-/** {
-  box-sizing: border-box;
-  margin: 0 auto;
-}*/
-
-.main {
-	margin: 20px;
+* {
+	box-sizing: border-box;
 }
 
 a {
 	color: var(--black);
 }
 
-/*for footer in index.html*/
+/*for index.html*/
 .footer {
 	text-align: right;
 	font-style: italic;
 	padding: 5px;
 	width: 100%;
 	height: 50px;
-	background-color: var(--powerblue);
-	color: var(--black);
+	background-color: var(--black);
+	color: var(--white);
 }
 
-/*for footer in contact.html*/
-.contact-footer {
-	text-align: right;
-	font-style: italic;
-	padding: 5px;
-	width: 100%;
-	height: 50px;
-	background-color: var(--powerblue);
-	color: var(--black);
-	position: fixed;
-	bottom: 0;
-}
-
-/*for carousel in index.html*/
 .carousel .custom-img {
 	width: 100vw;
 	height: 100vh;
 	object-fit: cover;
 }
 
-.carousel .custom-caption {
+.carousel .custom-caption1 {
+	text-align: center;
+	top: 50%;
+	bottom: 50%;
+	color: var(--orange);
+	font-size: larger;
+}
+.carousel .custom-caption2 {
+	text-align: center;
 	color: var(--black);
+	font-size: large;
+	font-style: italic;
+	bottom: 25%;
 }
 
 /*for nav bar*/
@@ -75,79 +73,129 @@ a {
 }
 
 /*for aboutme.html*/
-.intro-container {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	margin: 10px;
+@media (min-width: 601px) and (max-width: 1000px) {
+	.intro-container {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	.intro-item {
+		margin: 5px;
+		text-align: center;
+	}
+
+	.image {
+		margin: 5px;
+		width: 400px;
+		height: 400px;
+		border-radius: 50%;
+	}
+
+	.introduction {
+		padding: 20px;
+		margin: 5px;
+		text-align: justify;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+}
+@media (min-width: 1001px) {
+	.intro-container {
+		display: flex;
+		flex-direction: row;
+		flex-direction: nowrap;
+		justify-content: center;
+		margin: 20px;
+	}
+
+	.intro-item {
+		margin: 20px;
+		align-items: center;
+	}
+
+	.image {
+		width: 400px;
+		height: 400px;
+		padding: 20px;
+		border-radius: 50px 50px;
+	}
+	.introduction {
+		padding: 20px;
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: justify;
+		font-style: italic;
+		font-size: large;
+		width: 500px;
+	}
 }
 
-.intro-item {
-	margin: 5px;
-}
-
-.image {
-	padding: 20px;
-	border-radius: 50%;
-}
-.introduction {
-	padding: 20px;
-	font-family: Arial, Helvetica, sans-serif;
-	text-align: justify;
-}
 @media (max-width: 600px) {
 	.intro-container {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
-		margin: 5px;
-		text-align: center;
 	}
 
 	.intro-item {
 		margin: 5px;
+		text-align: center;
 	}
 
 	.image {
+		margin: 5px;
+		width: 200px;
+		height: 200px;
 		border-radius: 50%;
 	}
 
-
 	.introduction {
 		padding: 20px;
+		margin: 5px;
+		text-align: justify;
 		font-family: Arial, Helvetica, sans-serif;
 	}
 }
+.social-media {
+	margin-top: 20px;
+	text-align: center;
+}
 
-/* for work.html*/
-
+/*for work.html*/
 .flex-container {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-	margin: 20px;
+	margin: 20px 50px;
 }
 
 .flex-item {
-	margin: 10px;
+	background-color: var(--white);
+	border-radius: 50px 50px;
 	padding: 30px;
-	background-color: var(--powerblue);
-	border-radius: 50px /50px;
 }
 
 #education,
 #skills,
 #work,
 #internship {
-	margin: 10px 20px;
+	text-align: center;
+	margin-top: 10px;
+	color: var(--blue);
+}
+
+.degree,
+.designation {
+	font-size: large;
 }
 
 /*for project.html*/
 .bg-card {
-	background-color: var(--powerblue);
+	background-color: var(--white);
+	border-color: var(--blue);
 }
 
 .title-color {
 	color: var(--blue);
-	font-weight: bold;
+	font-weight: normal;
+	font-family: cursive;
 }
