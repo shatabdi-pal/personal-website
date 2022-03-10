@@ -24,7 +24,7 @@ This is a project for about my personal website. This is a multi-page website.
 ----------
 
 
-### Technology Used ###
+### Technology ###
 
 - HTML5
 
