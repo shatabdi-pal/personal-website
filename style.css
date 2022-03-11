@@ -97,7 +97,7 @@ a {
 		margin: 5px;
 		text-align: justify;
 		font-family: Arial, Helvetica, sans-serif;
-		color: var(--white);
+		color: var(--black);
 	}
 }
 @media (min-width: 1001px) {
@@ -127,7 +127,7 @@ a {
 		font-style: italic;
 		font-size: larger;
 		width: 500px;
-		color: var(--white);
+		color: var(--black);
 	}
 }
 
