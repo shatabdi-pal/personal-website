@@ -22,7 +22,7 @@ body {
 	box-sizing: border-box;
 }
 
-a {
+.link-color{
 	color: var(--black);
 }
 
