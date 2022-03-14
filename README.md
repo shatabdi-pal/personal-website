@@ -13,13 +13,16 @@
 - **Setup**
 
 - **Status**
+
+- **Area of improvement**
+
 - **References**
 
 ----------
 
 
 ### General Information ###
-This is a project for about my personal website. This is a multi-page website.
+This is a project for my personal website. This is a multi-page website.
 
 ----------
 
@@ -44,7 +47,13 @@ Please visit this url: [https://shatabdi-pal.github.io/personal-website/](https:
 
 
 ### Status ###
-The website has been developed and running in Git Hub pages.
+The website is running in Git Hub pages.
+
+----------
+
+### Area of Improvement ###
+
+This website has front end only.On the form submission the user can see some messages. As the back end for this website has not been built yet, I will not receive any message on the form submission.This is an area which needs further improvement.
 
 ----------
 
